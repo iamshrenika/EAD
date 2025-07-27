@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f8f6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Navbar */
+.navbar-custom {
+  background-color: #c3dbc5; /* Sage green */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #2e3e2f;
+}
+
+/* Card styling */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  background: #fff;
+}
+
+/* Buttons */
+.btn-custom {
+  background-color: #f9d5e5; /* baby pink */
+  color: #333;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 3px 5px rgba(249, 213, 229, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+  background-color: #e0b9ca;
+  color: #222;
+  box-shadow: 0 5px 8px rgba(224, 185, 202, 0.7);
+}
+
+/* Badges */
+.badge-done {
+  background-color: #a3c6b4; /* sage green */
+  color: #2e3e2f;
+  font-weight: 600;
+  padding: 0.4em 0.8em;
+  border-radius: 0.5rem;
+}
+
+.badge-pending {
+  background-color: #f9d5e5; /* baby pink */
+  color: #6b4c5b;
+  font-weight: 600;
+  padding: 0.4em 0.8em;
+  border-radius: 0.5rem;
+}
+
+/* List items */
+.list-group-item {
+  border: none;
+  border-radius: 0.75rem;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1rem 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f0f6f2;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  box-shadow: none;
+  border: 1.5px solid #c3dbc5;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #7aa77a;
+  box-shadow: 0 0 6px rgba(122, 167, 122, 0.5);
+  outline: none;
+}
+
+/* Responsive fix: keep button full width on small screens */
+@media (max-width: 767px) {
+  .btn-custom {
+    width: 100% !important;
+  }
+}
+.task-card {
+  border-radius: 1rem;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  min-height: 300px;
+}
+
+.task-card h3 {
+  color: #6a7f69; /* soft sage green */
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .task-card {
+    min-height: auto;
+  }
+}
