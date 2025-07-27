@@ -1,0 +1,25 @@
+# Ignore environment files
+.env
+todo-api/.env
+
+# Node modules
+todo-frontend/node_modules
+todo-frontend/.pnp
+todo-frontend/.pnp.js
+
+# Build output
+todo-frontend/build
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
